@@ -1,0 +1,8 @@
+package com.prueba.tecnica.excepciones;
+
+public class NotFoundException extends Exception{
+    public NotFoundException(String msg) {
+        super(msg);
+
+    }
+}
